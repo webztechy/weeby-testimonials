@@ -1,0 +1,65 @@
+.author-person-wrap{
+	display:flex;
+	margin: 10px 0;
+}
+.author-person-wrap > div{ width:100%; padding:0 10px; }
+.author-person-wrap .form-group{ margin:0 0 20px 0; }
+.author-person-wrap .form-group > div:first-child {
+	font-weight:500;
+}
+.author-person-wrap .form-group small{
+    color: #989898;
+}
+.author-person-wrap .form-group > div input{
+	width:98%;
+}
+ul.weeby-rating-list > li {
+    display: flex;
+    justify-content: left;
+    margin: 0 0 15px 0;
+}
+ul.weeby-rating-list .star-rating {
+    margin: -5px 0 0 10px;
+    color: #FC7402;
+}
+.star-value{ color:#FC7402; }
+
+.weeby-group-label{
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	margin-bottom: 16px !important;
+}
+.weeby-info-detail-wrap{ }
+.social-sites-wrap > div{
+	margin:0 0 4px 0;
+	position: relative;
+	font-weight:normal !important;
+}
+.social-sites-wrap > div::before{
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	font-family: fontawesome;
+	font-size: 14px;
+	background: #e6e6e6;
+	height: 25px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+    border-right: 1px solid gainsboro;
+}
+.social-sites-wrap > div.facebook::before{ content:"\f09a"; }
+.social-sites-wrap > div.twitter::before{ content:"\f099"; }
+.social-sites-wrap > div.linkedin::before{ content:"\f0e1"; }
+.social-sites-wrap > div.youtube::before{ content:"\f167"; }
+.social-sites-wrap > div.google-plus::before{ content:"\f0d5"; }
+
+.social-sites-wrap > div > input {
+    padding-left: 36px;
+}
+.weeby-star-rating-wrap{
+	width:315px !important;
+    background: #ececec;
+}
